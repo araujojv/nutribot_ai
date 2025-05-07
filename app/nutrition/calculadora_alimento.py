@@ -1,7 +1,7 @@
 import pandas as pd
 
 def calcular_refeicao(lista_alimentos):
-    df = pd.read_csv("/home/joao/nutribot_ai/data/Taco-4a-Edicao.xlsx")
+    df = pd.read_csv("/home/joao/nutribot_ai/data/alimentos.csv")
 
     totais = {
         "calorias": 0,
