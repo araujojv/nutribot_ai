@@ -1,0 +1,549 @@
+alimento,porcao_gramas,calorias,proteinas,carboidratos,gorduras
+Arroz integral cozido,100,123.53,2.59,0.46,1.0
+Arroz integral cru,100,359.68,7.32,1.18,1.86
+Arroz tipo 1 cozido,100,128.26,2.52,0.08,0.23
+Arroz tipo 1 cru,100,357.79,7.16,0.52,0.34
+Arroz tipo 2 cozido,100,130.12,2.57,0.15,0.36
+Arroz tipo 2 cru,100,358.12,7.24,0.44,0.28
+Aveia flocos crua,100,393.82,13.92,1.81,8.5
+Biscoito doce maisena,100,442.82,8.07,1.51,11.97
+Biscoito doce recheado com chocolate,100,471.82,6.4,1.29,19.58
+Biscoito doce recheado com morango,100,471.17,5.72,0.96,19.57
+Biscoito doce wafer recheado de chocolate,100,502.46,5.56,1.06,24.67
+Biscoito doce wafer recheado de morango,100,513.45,4.52,0.56,26.4
+Biscoito salgado cream cracker,100,431.73,10.06,2.72,14.44
+Bolo mistura para,100,418.63,6.16,2.0,6.13
+Bolo pronto aipim,100,323.85,4.42,0.84,12.75
+Bolo pronto chocolate,100,410.01,6.22,1.31,18.47
+Bolo pronto coco,100,333.44,5.67,1.44,11.3
+Bolo pronto milho,100,311.39,4.8,0.98,12.42
+Canjica branca crua,100,357.6,7.2,0.21,0.97
+Canjica com leite integral,100,112.46,2.36,0.27,1.24
+Cereais milho flocos com sal,100,369.6,7.29,0.98,1.6
+Cereais milho flocos sem sal,100,363.34,6.88,0.27,1.18
+Cereais mingau milho infantil,100,394.43,6.43,0.51,1.09
+Cereais mistura para vitamina trigo cevada e aveia,100,381.13,8.9,3.0,2.12
+Cereal matinal milho,100,365.35,7.16,2.54,0.96
+Cereal matinal milho acucar,100,376.56,4.74,1.48,0.67
+Creme de arroz po,100,386.0,7.03,0.54,1.23
+Creme de milho po,100,333.03,4.82,1.74,1.64
+Curau milho verde,100,78.43,2.36,0.49,1.64
+Curau milho verde mistura para,100,402.29,2.22,0.67,13.37
+Farinha de arroz enriquecida,100,363.06,1.27,0.23,0.3
+Farinha de centeio integral,100,335.78,12.52,1.66,1.75
+Farinha de milho amarela,100,350.59,7.19,0.49,1.47
+Farinha de rosca,100,370.58,11.38,1.56,1.46
+Farinha de trigo,100,360.47,9.79,0.77,1.37
+Farinha lactea de cereais,100,414.85,11.88,1.86,5.79
+Lasanha massa fresca cozida,100,163.76,5.81,0.86,1.16
+Lasanha massa fresca crua,100,220.31,7.01,1.61,1.34
+Macarrao instantaneo,100,435.86,8.79,5.57,17.24
+Macarrao trigo cru,100,371.12,10.0,0.51,1.3
+Macarrao trigo cru com ovos,100,370.57,10.32,0.52,1.97
+Milho fuba cru,100,353.48,7.21,0.56,1.9
+Milho verde cru,100,138.17,6.59,0.71,0.61
+Milho verde enlatado drenado,100,97.56,3.23,1.06,2.35
+Mingau tradicional po,100,373.42,0.58,1.57,0.37
+Pamonha barra para cozimento pre-cozida,100,171.22,2.55,0.61,4.85
+Pao aveia forma,100,343.09,12.35,2.47,5.69
+Pao de soja,100,308.73,11.34,2.53,3.58
+Pao gluten forma,100,252.99,11.95,0.53,2.73
+Pao milho forma,100,292.01,8.3,1.77,3.11
+Pao trigo forma integral,100,253.19,9.43,2.26,3.65
+Pao trigo frances,100,299.81,7.95,1.81,3.1
+Pao trigo sovado,100,310.96,8.4,1.55,2.84
+Pastel de carne cru,100,288.7,10.74,4.05,8.79
+Pastel de carne frito,100,388.37,10.1,3.07,20.14
+Pastel de queijo cru,100,308.47,9.85,3.28,9.63
+Pastel de queijo frito,100,422.11,8.71,2.95,22.67
+Pastel massa crua,100,310.2,6.9,3.17,5.48
+Pastel massa frita,100,569.67,6.02,2.81,40.86
+Pipoca com oleo de soja sem sal,100,448.33,9.93,1.0,15.94
+Polenta pre-cozida,100,102.74,2.29,1.35,0.3
+Torrada pao frances,100,377.42,10.52,2.57,3.3
+Abobora cabotian cozida,100,48.04,1.44,0.71,0.73
+Abobora cabotian crua,100,38.6,1.75,0.84,0.54
+Abobora moranga crua,100,12.36,0.96,0.44,0.06
+Abobora moranga refogada,100,29.0,0.39,0.37,0.8
+Abobora pescoco crua,100,24.47,0.67,0.6,0.12
+Abobrinha italiana cozida,100,15.04,1.12,0.42,0.2
+Abobrinha italiana crua,100,19.28,1.14,0.56,0.14
+Abobrinha italiana refogada,100,24.43,1.07,0.43,0.82
+Abobrinha paulista crua,100,30.81,0.64,0.5,0.14
+Acelga crua,100,20.94,1.44,0.63,0.11
+Agriao cru,100,16.58,2.69,0.88,0.24
+Aipo cru,100,19.09,0.76,1.07,0.07
+Alface americana crua,100,8.79,0.61,0.35,0.13
+Alface crespa crua,100,10.68,1.35,0.7,0.16
+Alface lisa crua,100,13.82,1.69,0.76,0.12
+Alface roxa crua,100,12.72,0.91,0.68,0.19
+Alfavaca crua,100,29.18,2.66,1.42,0.48
+Alho cru,100,113.13,7.01,1.32,0.22
+Alho-poro cru,100,31.51,1.41,0.62,0.14
+Almeirao cru,100,18.03,1.77,1.01,0.22
+Almeirao refogado,100,65.08,1.7,1.2,4.85
+Batata baroa cozida,100,80.12,0.85,0.77,0.17
+Batata baroa crua,100,100.98,1.05,1.11,0.17
+Batata doce cozida,100,76.76,0.64,0.42,0.09
+Batata doce crua,100,118.24,1.26,0.9,0.13
+Batata frita tipo chips industrializada,100,542.73,5.58,3.88,36.62
+Batata inglesa frita,100,267.16,4.97,2.16,13.11
+Batata inglesa saute,100,67.89,1.29,0.63,0.9
+Berinjela cozida,100,18.85,0.68,0.27,0.15
+Berinjela crua,100,19.63,1.22,0.45,0.1
+Beterraba cozida,100,32.15,1.29,0.81,0.09
+Beterraba crua,100,48.83,1.95,0.87,0.09
+Biscoito polvilho doce,100,437.55,1.29,0.49,12.25
+Brocolis cozido,100,24.64,2.13,0.42,0.46
+Brocolis cru,100,25.5,3.64,0.84,0.27
+Cara cozido,100,77.58,1.53,0.62,0.11
+Cara cru,100,95.63,2.28,0.93,0.14
+Caruru cru,100,34.03,3.2,2.62,0.58
+Catalonha crua,100,23.89,1.87,1.33,0.28
+Catalonha refogada,100,63.45,1.95,1.0,4.81
+Cebola crua,100,39.42,1.71,0.44,0.08
+Cebolinha crua,100,19.52,1.87,0.53,0.35
+Cenoura cozida,100,29.86,0.85,0.58,0.22
+Cenoura crua,100,34.14,1.32,0.87,0.17
+Chicoria crua,100,13.84,1.14,0.82,0.14
+Chuchu cru,100,16.98,0.7,0.27,0.06
+Coentro folhas desidratadas,100,309.07,20.88,10.15,10.39
+Couve manteiga crua,100,27.06,2.87,1.35,0.55
+Couve manteiga refogada,100,90.34,1.67,1.5,6.59
+Couve-flor crua,100,22.56,1.91,0.59,0.21
+Couve-flor cozida,100,19.11,1.24,0.28,0.27
+Espinafre Nova Zelandia cru,100,16.1,2.0,1.16,0.24
+Espinafre Nova Zelandia refogado,100,67.25,2.72,1.03,5.43
+Farinha de mandioca crua,100,360.87,1.55,0.88,0.28
+Farinha de mandioca torrada,100,365.27,1.23,0.95,0.29
+Farinha de puba,100,360.18,1.62,0.83,0.47
+Fecula de mandioca,100,330.85,0.52,0.28,0.28
+Feijao broto cru,100,38.72,4.17,0.49,0.1
+Inhame cru,100,96.7,2.05,1.19,0.21
+Jilo cru,100,27.37,1.4,0.56,0.22
+Jurubeba crua,100,125.81,4.41,1.98,3.91
+Mandioca cozida,100,125.36,0.57,0.35,0.3
+Mandioca crua,100,151.42,1.13,0.56,0.3
+Mandioca farofa temperada,100,405.69,2.06,2.09,9.12
+Mandioca frita,100,300.06,1.38,0.61,11.2
+Manjericao cru,100,21.15,1.99,1.02,0.39
+Maxixe cru,100,13.75,1.39,0.75,0.07
+Mostarda folha crua,100,18.11,2.11,1.06,0.17
+Nhoque batata cozido,100,180.78,5.86,0.46,1.94
+Nabo cru,100,18.19,1.2,0.75,0.05
+Palmito jucara em conserva,100,23.2,1.79,2.11,0.4
+Palmito pupunha em conserva,100,29.43,2.46,2.14,0.45
+Pao de queijo assado,100,363.08,5.12,2.33,24.57
+Pao de queijo cru,100,294.54,3.65,2.01,13.99
+Pimentao amarelo cru,100,27.93,1.22,0.5,0.44
+Pimentao verde cru,100,21.29,1.05,0.39,0.15
+Pimentao vermelho cru,100,23.28,1.04,0.44,0.15
+Quiabo cru,100,29.94,1.92,0.83,0.3
+Rabanete cru,100,13.74,1.39,0.75,0.07
+Repolho branco cru,100,17.12,0.88,0.4,0.14
+Repolho roxo cru,100,30.91,1.91,0.74,0.06
+Repolho roxo refogado,100,41.77,1.8,0.7,1.24
+Rucula crua,100,13.13,1.77,1.09,0.11
+Salsa crua,100,33.42,3.26,1.78,0.61
+Seleta de legumes enlatada,100,56.53,3.42,1.41,0.35
+Serralha crua,100,30.4,2.67,1.39,0.74
+Taioba crua,100,34.21,2.9,1.5,0.93
+Tomate com semente cru,100,15.34,1.1,0.46,0.17
+Tomate extrato,100,60.93,2.43,2.75,0.19
+Tomate molho industrializado,100,38.45,1.38,1.87,0.9
+Vagem crua,100,24.9,1.79,0.53,0.17
+Abacate cru,100,96.15,1.24,0.55,8.4
+Abacaxi cru,100,48.32,0.86,0.37,0.12
+Abacaxi polpa congelada,100,30.59,0.47,0.33,0.11
+Abiu cru,100,62.42,0.83,0.39,0.7
+Acai polpa com xarope de guarana e glucose,100,110.3,0.72,0.28,3.66
+Acai polpa congelada,100,58.05,0.8,0.35,3.94
+Acerola crua,100,33.46,0.91,0.39,0.21
+Ameixa em calda enlatada drenada,100,177.36,1.02,0.7,0.28
+Atemoia crua,100,96.97,0.97,0.66,0.3
+Banana da terra crua,100,128.02,1.43,0.78,0.24
+Banana doce em barra,100,280.11,2.17,0.99,0.05
+Banana figo crua,100,105.08,1.13,0.85,0.14
+Banana maca crua,100,86.81,1.75,0.62,0.06
+Banana nanica crua,100,91.53,1.4,0.84,0.12
+Banana ouro crua,100,112.37,1.48,0.79,0.21
+Banana pacova crua,100,77.91,1.23,0.67,0.08
+Banana prata crua,100,98.25,1.27,0.85,0.06
+Cacau cru,100,74.29,0.95,0.28,0.14
+Caja polpa congelada,100,26.33,0.59,0.42,0.17
+Caju cru,100,43.07,0.97,0.3,0.33
+Caju polpa congelada,100,36.57,0.48,0.2,0.15
+Caju suco concentrado envasado,100,45.11,0.4,0.29,0.2
+Caqui chocolate cru,100,71.35,0.36,0.52,0.07
+Carambola crua,100,45.74,0.87,0.37,0.18
+Ciriguela crua,100,75.59,1.4,0.7,0.36
+Cupuacu cru,100,49.42,1.16,1.22,0.95
+Cupuacu polpa congelada,100,48.8,0.84,0.62,0.59
+Figo cru,100,41.45,0.97,0.44,0.16
+Figo enlatado em calda,100,184.36,0.56,0.18,0.15
+Fruta-pao crua,100,67.05,1.08,0.69,0.19
+Goiaba branca com casca crua,100,51.74,0.9,0.52,0.49
+Goiaba doce em pasta,100,268.96,0.58,0.52,0.0
+Goiaba doce cascao,100,285.59,0.41,0.52,0.1
+Goiaba vermelha com casca crua,100,54.17,1.09,0.48,0.44
+Graviola crua,100,61.62,0.85,0.95,0.21
+Graviola polpa congelada,100,38.27,0.57,0.35,0.14
+Jabuticaba crua,100,58.05,0.61,0.36,0.13
+Jaca crua,100,87.92,1.4,0.76,0.26
+Jambo cru,100,26.91,0.89,0.45,0.07
+Jamelao cru,100,41.01,0.55,1.04,0.11
+Kiwi cru,100,51.14,1.34,0.66,0.63
+Laranja baia crua,100,45.44,0.98,0.37,0.1
+Laranja da terra crua,100,51.47,1.08,0.5,0.19
+Laranja da terra suco,100,40.96,0.67,0.4,0.14
+Laranja lima crua,100,45.7,1.06,0.36,0.08
+Laranja lima suco,100,39.34,0.71,0.32,0.12
+Laranja pera crua,100,36.77,1.04,0.33,0.13
+Laranja pera suco,100,32.71,0.74,0.34,0.07
+Laranja valencia crua,100,46.11,0.77,0.41,0.16
+Laranja valencia suco,100,36.2,0.48,0.31,0.12
+Limao galego suco,100,22.23,0.57,0.25,0.07
+Limao tahiti cru,100,31.82,0.94,0.41,0.14
+Maca Argentina com casca crua,100,62.53,0.22,0.29,0.25
+Macauba crua,100,404.28,2.08,1.79,40.66
+Mamao doce em calda drenado,100,195.63,0.19,0.21,0.07
+Mamao Formosa cru,100,45.34,0.82,0.58,0.12
+Mamao Papaia cru,100,40.16,0.46,0.4,0.12
+Mamao verde doce em calda drenado,100,209.38,0.32,0.07,0.1
+Manga Haden crua,100,63.5,0.41,0.39,0.26
+Manga Palmer crua,100,72.49,0.41,0.33,0.17
+Manga polpa congelada,100,48.31,0.38,0.37,0.23
+Manga Tommy Atkins crua,100,50.69,0.86,0.34,0.22
+Maracuja cru,100,68.44,1.99,0.79,2.1
+Maracuja polpa congelada,100,38.76,0.81,0.52,0.18
+Maracuja suco concentrado envasado,100,41.97,0.77,0.46,0.19
+Mexerica Murcote crua,100,57.59,0.88,0.47,0.13
+Mexerica Rio crua,100,36.87,0.65,0.32,0.13
+Morango cru,100,30.15,0.89,0.45,0.31
+Pequi cru,100,204.97,2.34,0.83,17.97
+Pera Park crua,100,60.59,0.24,0.27,0.23
+Pera Williams crua,100,53.31,0.57,0.27,0.11
+Pinha crua,100,88.47,1.49,0.7,0.32
+Pitanga crua,100,41.42,0.93,0.36,0.17
+Pitanga polpa congelada,100,19.11,0.29,0.26,0.12
+Tamarindo cru,100,275.7,3.21,1.86,0.46
+Tangerina Ponca crua,100,37.83,0.85,0.31,0.07
+Tucuma cru,100,262.02,2.09,1.09,19.08
+Umbu polpa congelada,100,33.94,0.51,0.45,0.07
+Uva Italia crua,100,52.87,0.75,0.57,0.2
+Uva Rubi crua,100,49.06,0.61,0.46,0.16
+Manteiga com sal,100,725.97,0.41,1.37,82.36
+Manteiga sem sal,100,757.54,0.4,0.05,86.04
+Abadejo file congelado assado,100,111.62,23.52,1.65,1.24
+Abadejo file congeladocozido,100,91.1,19.35,0.89,0.94
+Abadejo file congelado cru,100,59.11,13.08,0.63,0.36
+Abadejo file congelado grelhado,100,129.64,27.61,1.59,1.3
+Atum conserva em oleo,100,165.91,26.19,1.53,6.0
+Atum fresco cru,100,117.5,25.68,1.31,0.87
+Bacalhau salgado cru,100,135.89,29.04,22.5,1.32
+Bacalhau salgado refogado,100,139.66,23.98,5.28,3.61
+Cacao posta com farinha de trigo frita,100,208.33,24.95,1.37,9.95
+Cacao posta cozida,100,116.01,25.59,1.18,0.75
+Cacao posta crua,100,83.33,17.85,1.24,0.79
+Camarao Rio Grande grande cozido,100,90.01,18.97,1.73,1.0
+Camarao Rio Grande grande cru,100,47.18,9.99,0.8,0.5
+Camarao Sete Barbas sem cabeca com casca frito,100,231.25,18.39,2.07,15.62
+Caranguejo cozido,100,82.72,18.48,3.55,0.42
+Corimba cru,100,128.16,17.37,1.03,5.99
+Corimbata assado,100,261.45,19.9,0.96,19.57
+Corimbata cozido,100,238.7,20.13,0.84,16.93
+Corvina de agua doce crua,100,101.01,18.92,1.02,2.24
+Corvina do mar crua,100,94.0,18.57,1.08,1.58
+Corvina grande assada,100,146.53,26.77,1.35,3.57
+Corvina grande cozida,100,100.08,23.44,0.9,2.56
+Dourada de agua doce fresca,100,131.21,18.81,1.07,5.64
+Lambari congelado cru,100,130.84,16.81,3.57,6.55
+Lambari congelado frito,100,326.87,28.42,6.17,22.78
+Lambari fresco cru,100,151.6,15.65,2.21,9.4
+Manjuba com farinha de trigo frita,100,343.55,23.45,2.41,22.59
+Manjuba frita,100,349.33,30.14,4.23,24.46
+Merluza file assado,100,121.91,26.6,1.24,0.92
+Merluza file cru,100,89.13,16.61,1.14,2.02
+Merluza file frito,100,191.63,26.93,1.53,8.5
+Pescada branca crua,100,110.88,16.26,0.94,4.59
+Pescada branca frita,100,223.04,27.36,3.24,11.78
+Pescada file com farinha de trigo frito,100,283.43,21.44,1.21,19.11
+Pescada file cru,100,107.21,16.65,0.9,4.0
+Pescada file frito,100,154.27,28.59,1.66,3.57
+Pescada file molho escabeche,100,141.96,11.75,0.68,8.02
+Pescadinha crua,100,76.41,15.48,2.02,1.14
+Pintado assado,100,191.56,36.45,2.03,3.98
+Pintado cru,100,91.08,18.56,1.08,1.31
+Pintado grelhado,100,152.19,30.8,1.57,2.29
+Porquinho cru,100,93.02,20.49,1.26,0.61
+Salmao file com pele fresco  grelhado,100,228.73,23.92,1.29,14.04
+Salmao sem pele fresco cru,100,169.78,19.25,1.22,9.71
+Salmao sem pele fresco grelhado,100,242.71,26.14,1.61,14.53
+Sardinha assada,100,164.35,32.18,4.35,2.99
+Sardinha conserva em oleo,100,284.98,15.94,2.86,24.05
+Sardinha frita,100,257.04,33.38,4.3,12.69
+Sardinha inteira crua,100,113.9,21.08,1.6,2.65
+Tucunare file congelado cru,100,87.69,17.96,0.98,1.22
+Apresuntado,100,128.86,13.45,3.28,6.69
+Caldo de carne tablete,100,240.62,7.82,57.63,16.57
+Caldo de galinha tablete,100,251.45,6.28,59.28,20.42
+Carne bovina acem moido cozido,100,212.42,26.69,0.84,10.92
+Carne bovina acem moido cru,100,136.56,19.42,0.93,5.95
+Carne bovina acem sem gordura cozido,100,214.61,27.27,0.83,10.88
+Carne bovina acem sem gordura cru,100,144.03,20.82,0.96,6.11
+Carne bovina almondegas cruas,100,189.26,12.31,2.41,11.2
+Carne bovina almondegas fritas,100,271.81,18.16,3.69,15.78
+Carne bovina bucho cozido,100,133.02,21.64,0.32,4.5
+Carne bovina bucho cru,100,137.3,20.53,0.37,5.5
+Carne bovina capa de contra-file com gordura crua,100,216.91,19.2,0.9,14.96
+Carne bovina capa de contra-file com gordura grelhada,100,311.7,30.69,1.13,20.03
+Carne bovina capa de contra-file sem gordura crua,100,131.06,21.54,1.0,4.33
+Carne bovina capa de contra-file sem gordura grelhada,100,239.44,35.06,1.25,9.95
+Carne bovina charque cozido,100,262.78,36.36,3.63,11.92
+Carne bovina charque cru,100,248.86,22.71,14.49,16.84
+Carne bovina contra-file a milanesa,100,351.59,20.61,1.05,24.0
+Carne bovina contra-file de costela cru,100,202.44,19.8,0.95,13.07
+Carne bovina contra-file de costela grelhado,100,274.91,29.88,1.15,16.33
+Carne bovina contra-file com gordura cru,100,205.86,21.15,0.92,12.81
+Carne bovina contra-file com gordura grelhado,100,278.05,32.4,1.22,15.49
+Carne bovina contra-file sem gordura cru,100,156.62,24.0,0.99,6.0
+Carne bovina contra-file sem gordura grelhado,100,193.69,35.88,1.27,4.49
+Carne bovina costela assada,100,373.04,28.81,0.99,27.72
+Carne bovina costela crua,100,357.72,16.71,0.9,31.75
+Carne bovina coxao duro sem gordura cozido,100,216.62,31.88,0.88,8.92
+Carne bovina coxao duro sem gordura cru,100,147.97,21.51,1.09,6.22
+Carne bovina coxao mole sem gordura cozido,100,218.68,32.38,1.23,8.91
+Carne bovina coxao mole sem gordura cru,100,169.07,21.23,1.04,8.69
+Carne bovina cupim assado,100,330.1,28.63,0.96,23.04
+Carne bovina cupim cru,100,221.4,19.54,0.88,15.3
+Carne bovina figado cru,100,141.05,20.71,1.49,5.36
+Carne bovina figado grelhado,100,225.03,29.86,1.96,9.01
+Carne bovina file mingnon sem gordura cru,100,142.86,21.6,1.07,5.61
+Carne bovina file mingnon sem gordura grelhado,100,219.7,32.8,1.33,8.83
+Carne bovina flanco sem gordura cozido,100,195.58,29.38,0.86,7.77
+Carne bovina flanco sem gordura cru,100,141.46,20.0,0.97,6.22
+Carne bovina fraldinha com gordura cozida,100,338.45,24.24,0.75,26.05
+Carne bovina fraldinha com gordura crua,100,220.72,17.58,0.86,16.15
+Carne bovina lagarto cozido,100,222.47,32.86,0.88,9.11
+Carne bovina lagarto cru,100,134.86,20.54,1.12,5.23
+Carne bovina lingua cozida,100,314.9,21.37,0.66,24.8
+Carne bovina lingua crua,100,215.25,17.09,0.78,15.77
+Carne bovina maminha crua,100,152.77,20.93,1.02,7.03
+Carne bovina maminha grelhada,100,153.09,30.74,1.39,2.42
+Carne bovina miolo de alcatra sem gordura cru,100,162.87,21.61,1.01,7.83
+Carne bovina miolo de alcatra sem gordura grelhado,100,241.36,31.93,1.22,11.64
+Carne bovina musculo sem gordura cozido,100,193.8,31.23,0.88,6.7
+Carne bovina musculo sem gordura cru,100,141.58,21.56,0.99,5.49
+Carne bovina paleta com gordura crua,100,158.71,21.41,0.92,7.46
+Carne bovina paleta sem gordura cozida,100,193.65,29.72,0.85,7.4
+Carne bovina paleta sem gordura crua,100,140.94,21.03,0.98,5.67
+Carne bovina patinho sem gordura cru,100,133.47,21.72,1.01,4.51
+Carne bovina patinho sem gordura grelhado,100,219.26,35.9,1.3,7.31
+Carne bovina peito sem gordura cozido,100,338.47,22.25,0.72,26.99
+Carne bovina peito sem gordura cru,100,259.28,17.56,0.85,20.43
+Carne bovina picanha com gordura crua,100,212.88,18.82,0.93,14.69
+Carne bovina picanha com gordura grelhada,100,288.77,26.42,1.09,19.51
+Carne bovina picanha sem gordura crua,100,133.52,21.25,1.01,4.74
+Carne bovina picanha sem gordura grelhada,100,238.47,31.91,1.23,11.33
+Carne bovina seca cozida,100,312.8,26.93,4.72,21.93
+Carne bovina seca crua,100,312.75,19.66,15.29,25.37
+Coxinha de frango frita,100,283.05,9.61,1.82,11.84
+Croquete de carne cru,100,245.77,12.04,2.49,15.56
+Croquete de carne frito,100,346.74,16.86,3.08,22.67
+Empada de frango pre-cozida assada,100,358.19,6.94,1.77,15.6
+Empada de frango pre-cozida,100,377.48,7.34,2.21,22.89
+Frango asa com pele crua,100,213.19,18.1,0.69,15.07
+Frango caipira inteiro com pele cozido,100,242.89,23.88,0.8,15.62
+Frango caipira inteiro sem pele cozido,100,195.76,29.58,1.09,7.7
+Frango coracao cru,100,221.5,12.58,0.77,18.6
+Frango coracao grelhado,100,207.27,22.44,1.35,12.1
+Frango coxa com pele assada,100,215.12,28.49,1.3,10.36
+Frango coxa com pele crua,100,161.47,17.09,0.83,9.81
+Frango coxa sem pele cozida,100,167.43,26.86,0.87,5.85
+Frango coxa sem pele crua,100,119.95,17.81,0.89,4.86
+Frango figado cru,100,106.48,17.59,1.2,3.49
+Frango file a milanesa,100,220.87,28.46,1.35,7.79
+Frango inteiro com pele cru,100,226.32,16.44,0.75,17.31
+Frango inteiro sem pele assado,100,187.34,28.02,1.16,7.5
+Frango inteiro sem pele cozido,100,170.39,24.99,0.89,7.06
+Frango inteiro sem pele cru,100,129.1,20.59,0.93,4.57
+Frango peito com pele assado,100,211.68,33.42,1.49,7.65
+Frango peito com pele cru,100,149.47,20.78,0.91,6.73
+Frango peito sem pele cozido,100,162.87,31.47,0.98,3.16
+Frango peito sem pele cru,100,119.16,21.53,0.97,3.02
+Frango peito sem pele grelhado,100,159.19,32.03,1.44,2.48
+Frango sobrecoxa com pele assada,100,259.6,28.7,1.33,15.19
+Frango sobrecoxa com pele crua,100,254.53,15.46,0.75,20.9
+Frango sobrecoxa sem pele assada,100,232.88,29.18,1.49,12.01
+Frango sobrecoxa sem pele crua,100,161.8,17.57,0.88,9.62
+Hamburguer bovino cru,100,214.84,13.16,2.91,16.18
+Hamburguer bovino frito,100,258.28,19.97,4.24,17.01
+Hamburguer bovino grelhado,100,209.83,13.16,3.85,12.43
+Linguica frango crua,100,218.11,14.24,3.28,17.44
+Linguica frango frita,100,245.46,18.32,3.79,18.54
+Linguica frango grelhada,100,243.66,18.19,3.82,18.4
+Linguica porco crua,100,227.2,16.06,3.21,17.58
+Linguica porco frita,100,279.54,20.45,3.86,21.31
+Linguica porco grelhada,100,296.49,23.17,4.0,21.9
+Mortadela,100,268.82,11.95,4.14,21.65
+Peru congelado assado,100,163.07,26.2,2.23,5.68
+Peru congelado cru,100,93.72,18.08,2.46,1.83
+Porco bisteca crua,100,164.12,21.5,0.99,8.02
+Porco bisteca frita,100,311.17,33.75,1.55,18.52
+Porco bisteca grelhada,100,280.08,28.89,1.25,17.38
+Porco costela assada,100,402.17,30.22,1.37,30.28
+Porco costela crua,100,255.61,18.0,0.92,19.82
+Porco lombo assado,100,210.23,35.72,1.37,6.4
+Porco lombo cru,100,175.63,22.6,1.03,8.77
+Porco orelha salgada crua,100,258.49,18.52,2.04,19.89
+Porco pernil assado,100,262.26,32.13,1.45,13.86
+Porco pernil cru,100,186.06,20.12,1.02,11.1
+Porco rabo salgado cru,100,377.42,15.58,3.5,34.47
+Presunto com capa de gordura,100,127.85,14.37,3.51,6.77
+Presunto sem capa de gordura,100,93.74,14.29,3.68,2.71
+Quibe assado,100,136.23,14.59,0.85,2.68
+Quibe cru,100,109.49,12.35,0.7,1.67
+Quibe frito,100,253.83,14.89,3.01,15.8
+Salame,100,397.84,25.81,5.94,30.64
+Toucinho cru,100,592.53,11.48,0.3,60.26
+Toucinho frito,100,696.56,27.28,0.73,64.31
+Bebida lactea pessego,100,55.16,2.13,0.7,1.91
+Creme de Leite,100,221.48,1.51,0.61,22.48
+Iogurte natural,100,51.49,4.06,0.94,3.04
+Iogurte natural desnatado,100,41.49,3.83,0.86,0.32
+Iogurte sabor morango,100,69.57,2.71,0.63,2.33
+Iogurte sabor pessego,100,67.85,2.53,0.64,2.34
+Leite condensado,100,312.57,7.67,1.63,6.74
+Leite de cabra,100,66.42,3.07,0.86,3.75
+Leite de vaca achocolatado,100,82.82,2.1,0.68,2.17
+Leite de vaca desnatado po,100,361.61,34.69,8.23,0.93
+Leite de vaca integral po,100,496.65,25.42,5.8,26.9
+Leite fermentado,100,69.62,1.89,0.45,0.1
+Queijo minas frescal,100,264.27,17.41,3.04,20.18
+Queijo minas meia cura,100,320.72,21.21,3.49,24.61
+Queijo mozarela,100,329.87,22.65,3.78,25.18
+Queijo parmesao,100,452.96,35.55,8.01,33.53
+Queijo pasteurizado,100,303.08,9.36,3.11,27.44
+Queijo petit suisse morango,100,121.11,5.79,0.7,2.84
+Queijo prato,100,359.88,22.66,3.91,29.11
+Queijo requeijao cremoso,100,256.58,9.63,2.03,23.44
+Queijo ricota,100,139.73,12.6,1.93,8.11
+Bebida isotonica sabores variados,100,25.61,0.0,0.09,0.0
+Cafe infusao 10%,100,9.07,0.71,0.37,0.07
+Cha erva-doce infusao 5%,100,1.4,0.0,0.0,0.0
+Cha mate infusao 5%,100,2.73,0.0,0.0,0.05
+Cha preto infusao 5%,100,2.25,0.0,0.0,0.0
+Coco agua de,100,21.51,0.0,0.46,0.0
+Refrigerante tipo agua tonica,100,30.78,0.0,0.04,0.0
+Refrigerante tipo cola,100,33.51,0.0,0.06,0.0
+Refrigerante tipo guarana,100,38.7,0.0,0.04,0.0
+Refrigerante tipo laranja,100,45.63,0.0,0.04,0.0
+Refrigerante tipo limao,100,39.72,0.0,0.05,0.0
+Omelete de queijo,100,268.01,15.57,1.49,22.01
+Ovo de codorna inteiro cru,100,176.89,13.69,1.19,12.68
+Ovo de galinha clara cozida/10minutos,100,59.44,13.45,0.67,0.09
+Ovo de galinha gema cozida/10minutos,100,352.67,15.9,1.74,30.78
+Ovo de galinha inteiro cozido/10minutos,100,145.7,13.29,0.85,9.48
+Ovo de galinha inteiro cru,100,143.11,13.03,0.83,8.9
+Ovo de galinha inteiro frito,100,240.19,15.62,1.1,18.59
+Achocolatado po,100,401.02,4.2,1.35,2.17
+Acucar mascavo,100,368.55,0.76,1.38,0.09
+Chocolate ao leite,100,539.59,7.22,1.68,30.27
+Chocolate ao leite com castanha do Para,100,558.88,7.41,1.81,34.19
+Chocolate ao leite dietetico,100,556.82,6.9,1.28,33.77
+Chocolate meio amargo,100,474.92,4.86,1.84,29.86
+Cocada branca,100,448.85,1.12,0.48,13.59
+Doce de abobora cremoso,100,198.94,0.92,0.38,0.21
+Doce de leite cremoso,100,306.31,5.48,1.54,5.99
+Geleia mocoto natural,100,106.09,2.12,0.09,0.07
+Glicose de milho,100,292.12,0.0,0.21,0.0
+Maria mole,100,301.24,3.81,0.87,0.19
+Maria mole coco queimado,100,306.63,3.93,0.18,0.09
+Marmelada,100,257.24,0.4,0.2,0.14
+Mel de abelha,100,309.24,0.0,0.14,0.0
+Melado,100,296.51,0.0,1.3,0.0
+Quindim,100,411.35,4.74,0.61,24.42
+Rapadura,100,351.96,0.99,1.05,0.07
+Cafe po torrado,100,418.62,14.7,4.67,11.95
+Capuccino po,100,417.41,11.31,3.84,8.63
+Fermento em po quimico,100,89.72,0.48,48.46,0.07
+Fermento biologico levedura tablete,100,89.79,16.96,1.93,1.52
+Shoyu,100,60.93,3.31,14.09,0.33
+Tempero a base de sal,100,21.33,2.67,87.35,0.26
+Azeitona preta conserva,100,194.15,1.16,4.48,20.34
+Azeitona verde conserva,100,136.94,0.95,4.48,14.22
+Chantilly spray com gordura vegetal,100,314.96,0.52,0.21,27.27
+Leite de coco,100,166.16,1.01,0.44,18.36
+Maionese tradicional com ovos,100,302.15,0.58,2.6,30.5
+Acaraje,100,289.21,8.35,2.15,19.93
+Arroz carreteiro,100,153.77,10.83,2.43,7.12
+Baiao de dois arroz e feijao-de-corda,100,135.68,6.24,1.06,3.23
+Barreado,100,164.98,18.27,0.79,9.53
+Bife a cavalo com contra file,100,291.23,23.66,1.12,21.15
+Bolinho de arroz,100,273.51,8.04,0.49,8.29
+Camarao a baiana,100,100.78,7.94,0.93,5.97
+Charuto de repolho,100,78.23,6.78,0.42,1.12
+Cuscuz de milho cozido com sal,100,113.46,2.16,0.75,0.68
+Cuscuz paulista,100,142.12,2.56,1.34,4.65
+Cuxa molho,100,80.09,5.64,4.03,3.59
+Dobradinha,100,124.5,19.77,0.29,4.44
+Estrogonofe de carne,100,173.14,15.03,1.06,10.8
+Estrogonofe de frango,100,156.81,17.55,1.0,7.96
+Feijao tropeiro mineiro,100,151.56,10.17,1.79,6.79
+L,100,116.93,8.67,1.41,6.48
+Frango com acafrao,100,112.78,9.7,0.55,6.17
+Macarrao molho bolognesa,100,119.53,4.93,0.24,0.89
+Manicoba,100,134.22,9.96,1.53,8.7
+Quibebe,100,86.35,8.56,1.02,2.67
+Salada de legumes com maionese,100,96.1,1.05,0.95,7.04
+Salada de legumes cozida no vapor,100,35.41,2.01,0.61,0.31
+Salpicao de frango,100,147.86,13.92,1.14,7.84
+Sarapatel,100,122.98,18.47,1.06,4.42
+Tabule,100,57.45,2.05,0.39,1.21
+Tacaca,100,46.89,6.96,4.1,0.36
+Tapioca com manteiga,100,347.83,0.09,0.51,10.91
+Tucupi com pimenta-de-cheiro,100,27.18,2.06,1.04,0.28
+Vaca atolada,100,144.9,5.12,0.54,9.32
+Vatapa,100,254.89,6.0,2.66,23.23
+Virado a paulista,100,306.95,10.18,1.53,25.59
+Yakisoba,100,112.8,7.52,2.25,2.61
+Amendoim grao cru,100,544.05,27.19,2.22,43.85
+Amendoim torrado salgado,100,605.78,22.48,3.17,53.96
+Ervilha em vagem,100,88.09,7.45,1.01,0.47
+Ervilha enlatada drenada,100,73.84,4.6,1.44,0.38
+Feijao carioca cozido,100,76.42,4.78,0.74,0.54
+Feijao carioca cru,100,329.03,19.98,3.54,1.26
+Feijao fradinho cozido,100,78.01,5.09,0.75,0.64
+Feijao fradinho cru,100,339.16,20.21,3.49,2.37
+Feijao jalo cozido,100,92.74,6.14,1.01,0.51
+Feijao jalo cru,100,327.91,20.1,3.94,0.95
+Feijao preto cozido,100,77.03,4.48,0.76,0.54
+Feijao preto cru,100,323.57,21.34,3.79,1.24
+Feijao rajado cozido,100,84.7,5.54,0.93,0.4
+Feijao rajado cru,100,325.84,17.27,3.67,1.17
+Feijao rosinha cozido,100,67.87,4.54,0.58,0.48
+Feijao rosinha cru,100,336.96,20.92,3.58,1.33
+Feijao roxo cozido,100,76.89,5.72,0.85,0.54
+Feijao roxo cru,100,331.41,22.17,3.97,1.24
+Grao-de-bico cru,100,354.7,21.23,3.17,5.43
+Guandu cru,100,344.13,18.96,3.45,2.13
+Lentilha cozida,100,92.64,6.31,0.61,0.52
+Lentilha crua,100,339.14,23.15,2.61,0.77
+Pacoca amendoim,100,486.93,16.0,3.75,26.08
+Pe-de-moleque amendoim,100,503.19,13.16,1.15,28.05
+Soja farinha,100,403.96,36.03,5.15,14.63
+Soja extrato soluvel natural fluido,100,39.1,2.38,0.45,1.61
+Soja extrato soluvel po,100,458.9,35.69,5.18,26.18
+Soja queijo (tofu),100,64.49,6.55,0.72,3.95
+Tremoco cru,100,381.28,33.58,2.6,10.34
+Tremoco em conserva,100,120.64,11.11,5.03,3.78
+Amendoa torrada salgada,100,580.75,18.55,1.47,47.32
+Castanha-de-caju torrada salgada,100,570.17,18.51,2.61,46.28
+Castanha-do-Brasil crua,100,642.96,14.54,3.4,63.46
+Coco cru,100,406.49,3.69,0.97,41.98
+Farinha de mesocarpo de babacu crua,100,328.77,1.41,3.4,0.2
+Gergelim semente,100,583.55,21.16,2.93,50.43
+Linhaca semente,100,495.1,14.08,3.67,32.25
+Pinhao cozido,100,174.37,2.98,1.84,0.75
+Pupunha cozida,100,218.53,2.52,0.69,12.76
+Noz crua,100,620.06,13.97,2.06,59.36
