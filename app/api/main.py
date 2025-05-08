@@ -20,9 +20,20 @@ class Usuario(BaseModel):
 def calcular(usuario: Usuario):
     tmb = calcular_tmb(usuario.peso, usuario.altura, usuario.idade, usuario.sexo)
     tdee = calcular_tdee(tmb, usuario.nivel_atividade)
+    objetivo = usuario.objetivo.lower()
+    if objetivo == "emagrecer":
+        meta = tdee - 500
+    elif objetivo == "ganhar":
+        meta = tdee + 500 
+    else: #manter 
+        meta = tdee
+    
+    
     return {
         "TMB": round(tmb, 2),
-        "TDEE": round(tdee, 2)
+        "TDEE": round(tdee, 2),
+        "meta_calorica_diaria": round(meta, 2),
+        "objetivo": objetivo
     }
 
 
