@@ -1,8 +1,21 @@
 import pandas as pd
 import unidecode
 import difflib
+
+def encontrar_alimento(df, nome_digitado):
+    nome_normalizado = unidecode.unidecode(nome_digitado.lower().strip())
+    alimentos_normalizados = df["alimento"].apply(lambda x: unidecode.unidecode(x.lower().strip())).tolist()
+    sugestoes = difflib.get_close_matches(nome_normalizado, alimentos_normalizados, n=1, cutoff=0.7)
+
+    if sugestoes:
+        idx = alimentos_normalizados.index(sugestoes[0])
+        return df.iloc[idx]
+    else:
+        return None
+
+
 def calcular_refeicao(lista_alimentos):
-    df = pd.read_csv("/home/joao/nutribot_ai/data/alimentos.csv")
+    df = pd.read_csv("data/alimentos.csv")
 
     totais = {
         "calorias": 0,
@@ -17,17 +30,16 @@ def calcular_refeicao(lista_alimentos):
         nome = item["alimento"]
         gramas = item["gramas"]
 
-        alimento = df[df['alimento'].str.lower() == nome.lower()]
+        linha = encontrar_alimento(df, nome)
 
-        if alimento.empty:
+        if linha is None:
             detalhes.append({"alimento": nome, "erro": "Não encontrado"})
             continue
 
-        linha = alimento.iloc[0]
         fator = gramas / linha['porcao_gramas']
 
         resultado = {
-            "alimento": nome,
+            "alimento": linha['alimento'],
             "quantidade": gramas,
             "calorias": round(linha['calorias'] * fator, 2),
             "proteinas": round(linha['proteinas'] * fator, 2),
