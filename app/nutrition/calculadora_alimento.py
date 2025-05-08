@@ -1,5 +1,6 @@
 import pandas as pd
-
+import unidecode
+import difflib
 def calcular_refeicao(lista_alimentos):
     df = pd.read_csv("/home/joao/nutribot_ai/data/alimentos.csv")
 
