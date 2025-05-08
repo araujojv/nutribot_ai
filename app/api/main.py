@@ -13,6 +13,7 @@ class Usuario(BaseModel):
     idade: int
     sexo: str
     nivel_atividade: str
+    objetivo: str # emagrecer, manter, ganhar 
 
 # Rota para calcular TMB e TDEE
 @app.post("/calcular_gasto_energetico")
