@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from typing import List
 from pydantic import BaseModel
 from app.logic.metabolism import calcular_tmb, calcular_tdee
+from app.models.refeicao import Refeicao
 from app.nutrition.calculadora_alimento import calcular_refeicao
 from sqlalchemy.orm import Session
 from fastapi import Depends
@@ -47,3 +48,28 @@ class ItemRefeicao(BaseModel):
 @app.post("/calcular_refeicao")
 def calcular(itens: List[ItemRefeicao]):
     return calcular_refeicao([item.dict() for item in itens])
+
+def get_db():
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+
+@app.get("/refeicao")
+def listar_refeicoes(db: Session = Depends(get_db)):
+    refeicoes = db.query(Refeicao).order_by(Refeicao.horario.desc()).all()
+    return [
+        {
+            "id": r.id,
+            "alimento": r.alimento,
+            "gramas": r.gramas,
+            "calorias": r.calorias,
+            "proteinas": r.proteinas,
+            "carboidratos": r.carboidratos,
+            "gorduras": r.gorduras,
+            "horario": r.horario
+        }
+        for r in refeicoes
+    ]
