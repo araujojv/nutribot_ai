@@ -3,7 +3,10 @@ from typing import List
 from pydantic import BaseModel
 from app.logic.metabolism import calcular_tmb, calcular_tdee
 from app.nutrition.calculadora_alimento import calcular_refeicao
-
+from sqlalchemy.orm import Session
+from fastapi import Depends
+from app.database import SessionLocal
+from typing import List
 app = FastAPI()
 
 
