@@ -2,7 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import requests
-
+import plotly.express as px
 
 conn = sqlite3.connect("data/nutricao.db", check_same_thread=False)
 
