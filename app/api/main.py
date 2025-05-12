@@ -8,6 +8,8 @@ from sqlalchemy.orm import Session
 from fastapi import Depends
 from app.database import SessionLocal
 from typing import List
+import pandas as pd
+
 app = FastAPI()
 
 
@@ -74,4 +76,24 @@ def listar_refeicoes(db: Session = Depends(get_db)):
         for r in refeicoes
     ]
     
+@app.post("/refeicao")
+def criar_refeicao(dados: dict = Body(...), db: Session = Depends(get_db)):
+    nova = Refeicao(
+        alimento=dados["alimento"],
+        gramas=dados["quantidade"],
+        calorias=dados["calorias"],
+        proteinas=dados["proteinas"],
+        carboidratos=dados["carboidratos"],
+        gorduras=dados["gorduras"]
+    )
+    db.add(nova)
+    db.commit()
+    db.refresh(nova)
+    return {"id": nova.id, "status": "salvo com sucesso"}    
+
     
+    
+@app.get("/alimentos")
+def listar_alimentos():
+    df = pd.read_csv("data/alimentos.csv")
+    return df["alimento"].dropna().unique().tolist()

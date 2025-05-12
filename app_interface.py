@@ -45,27 +45,39 @@ if menu == "Calcular TDEE":
 elif menu == "Registrar Refeição":
     st.subheader("🍽️ Registrar nova refeição")
 
-    alimento = st.text_input("Alimento")
-    gramas = st.number_input("Quantidade (g)", 0.0, 1000.0, 100.0)
-    calorias = st.number_input("Calorias", 0.0, 2000.0)
-    proteinas = st.number_input("Proteínas", 0.0, 100.0)
-    carboidratos = st.number_input("Carboidratos", 0.0, 300.0)
-    gorduras = st.number_input("Gorduras", 0.0, 100.0)
+    # Buscar lista de alimentos da API
+    try:
+        alimentos = requests.get("http://127.0.0.1:8000/alimentos").json()
+    except:
+        alimentos = []
+        st.error("❌ Erro ao carregar lista de alimentos")
 
-    if st.button("Salvar refeição"):
-        payload = {
-            "alimento": alimento,
-            "gramas": gramas,
-            "calorias": calorias,
-            "proteinas": proteinas,
-            "carboidratos": carboidratos,
-            "gorduras": gorduras
-        }
-        res = requests.post("http://127.0.0.1:8000/refeicao", json=payload)
+    nome = st.selectbox("Selecione o alimento", alimentos)
+    gramas = st.number_input("Quantidade (g)", 0.0, 1000.0, 100.0)
+
+    if st.button("Buscar e salvar"):
+        entrada = [{"alimento": nome, "gramas": gramas}]
+        res = requests.post("http://127.0.0.1:8000/calcular_refeicao", json=entrada)
+
         if res.status_code == 200:
-            st.success("✅ Refeição registrada com sucesso!")
+            dados = res.json()
+            if "detalhes" in dados and dados["detalhes"]:
+                item = dados["detalhes"][0]
+                if "erro" in item:
+                    st.error(f"Erro: {item['erro']}")
+                else:
+                    st.success("Refeição encontrada:")
+                    st.write(item)
+
+                    save = requests.post("http://127.0.0.1:8000/refeicao", json=item)
+                    if save.status_code == 200:
+                        st.success("✅ Refeição registrada com sucesso!")
+                    else:
+                        st.error("Erro ao registrar no banco.")
         else:
-            st.error("Erro ao registrar refeição.")
+            st.error("Erro ao buscar dados.")
+
+
 
 
 elif menu == "Histórico":
