@@ -84,3 +84,16 @@ elif menu == "Histórico":
     st.subheader("📅 Histórico de Refeições")
     df = pd.read_sql_query("SELECT * FROM refeicoes ORDER BY horario DESC", conn)
     st.dataframe(df)
+
+if not df.empty:
+    st.subheader("📈 Comparativo Nutricional")
+
+    nutrientes = df.melt(
+        id_vars=["alimento"],
+        value_vars=["calorias", "proteinas", "carboidratos", "gorduras"],
+        var_name="Nutriente",
+        value_name="Valor"
+    )
+
+    fig = px.bar(nutrientes, x="alimento", y="Valor", color="Nutriente", barmode="group")
+    st.plotly_chart(fig, use_container_width=True)

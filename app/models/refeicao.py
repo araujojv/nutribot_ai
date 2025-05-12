@@ -1,7 +1,8 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
-
+from sqlalchemy import ForeignKey
+from sqlalchemy.orm import relationship
 Base = declarative_base()
 
 class Refeicao(Base):
@@ -15,3 +16,5 @@ class Refeicao(Base):
     carboidratos = Column(Float)
     gorduras = Column(Float)
     horario = Column(DateTime, default=datetime.utcnow)
+    usuario_id = Column(Integer, ForeignKey("usuarios.id"))
+    usuario = relationship("Usuario", backref="refeicoes")
