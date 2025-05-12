@@ -1,4 +1,4 @@
-from fastapi import FastAPI  
+from fastapi import Body, FastAPI  
 from typing import List
 from pydantic import BaseModel
 from app.logic.metabolism import calcular_tmb, calcular_tdee
