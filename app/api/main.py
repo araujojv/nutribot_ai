@@ -9,9 +9,10 @@ from fastapi import Depends
 from app.database import SessionLocal
 from typing import List
 import pandas as pd
-
+from app.api.usuarios import router as usuario_router
 app = FastAPI()
 
+app.include_router(usuario_router)
 
 class Usuario(BaseModel):
     peso: float
@@ -21,7 +22,6 @@ class Usuario(BaseModel):
     nivel_atividade: str
     objetivo: str # emagrecer, manter, ganhar 
 
-# Rota para calcular TMB e TDEE
 @app.post("/calcular_gasto_energetico")
 def calcular(usuario: Usuario):
     tmb = calcular_tmb(usuario.peso, usuario.altura, usuario.idade, usuario.sexo)
@@ -41,7 +41,6 @@ def calcular(usuario: Usuario):
         "meta_calorica_diaria": round(meta, 2),
         "objetivo": objetivo
     }
-
 
 class ItemRefeicao(BaseModel):
     alimento: str
@@ -91,9 +90,8 @@ def criar_refeicao(dados: dict = Body(...), db: Session = Depends(get_db)):
     db.refresh(nova)
     return {"id": nova.id, "status": "salvo com sucesso"}    
 
-    
-    
 @app.get("/alimentos")
 def listar_alimentos():
+    
     df = pd.read_csv("data/alimentos.csv")
     return df["alimento"].dropna().unique().tolist()
