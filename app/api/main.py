@@ -59,8 +59,8 @@ def get_db():
 
 
 @app.get("/refeicao")
-def listar_refeicoes(db: Session = Depends(get_db)):
-    refeicoes = db.query(Refeicao).order_by(Refeicao.horario.desc()).all()
+def listar_refeicoes(usuario_id: int, db: Session = Depends(get_db)):
+    refeicoes = db.query(Refeicao).filter(Refeicao.usuario_id == usuario_id).order_by(Refeicao.horario.desc()).all()
     return [
         {
             "id": r.id,
@@ -78,6 +78,7 @@ def listar_refeicoes(db: Session = Depends(get_db)):
 @app.post("/refeicao")
 def criar_refeicao(dados: dict = Body(...), db: Session = Depends(get_db)):
     nova = Refeicao(
+        usuario_id=dados["usuario_id"],
         alimento=dados["alimento"],
         gramas=dados["quantidade"],
         calorias=dados["calorias"],
