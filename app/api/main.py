@@ -58,7 +58,7 @@ def get_db():
         db.close()
 
 
-@app.get("/refeicao")
+@app.get("/refeicao/{usuario_id}")
 def listar_refeicoes(usuario_id: int, db: Session = Depends(get_db)):
     refeicoes = db.query(Refeicao).filter(Refeicao.usuario_id == usuario_id).order_by(Refeicao.horario.desc()).all()
     return [

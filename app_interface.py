@@ -11,10 +11,38 @@ st.title("🍎 NutriBot – Assistente Nutricional")
 st.sidebar.subheader("👤 Login do Usuário")
 usuario_id = st.sidebar.number_input("ID do usuário", min_value=1, step=1)
 
-menu = st.sidebar.selectbox("Navegar", ["Calcular TDEE", "Registrar Refeição", "Histórico"])
+# Atualizado: Adicionamos a opção Criar Conta
+menu = st.sidebar.selectbox("Navegar", ["Criar Conta", "Calcular TDEE", "Registrar Refeição", "Histórico"])
+
+# ============================ CRIAR CONTA ============================
+if menu == "Criar Conta":
+    st.subheader("🔐 Criar nova conta de usuário")
+
+    nome = st.text_input("Nome completo")
+    email = st.text_input("Email")
+    senha = st.text_input("Senha", type="password")
+
+    if st.button("Cadastrar"):
+        if not nome or not email or not senha:
+            st.warning("Preencha todos os campos.")
+        else:
+            payload = {
+                "nome": nome,
+                "email": email,
+                "senha": senha
+            }
+
+            try:
+                res = requests.post("http://127.0.0.1:8000/usuarios", json=payload)
+                if res.status_code in [200, 201]:
+                    st.success("✅ Conta criada com sucesso!")
+                else:
+                    st.error(f"Erro ao cadastrar: {res.text}")
+            except Exception as e:
+                st.error(f"Erro de conexão com a API: {e}")
 
 # ============================ CALCULAR TDEE ============================
-if menu == "Calcular TDEE":
+elif menu == "Calcular TDEE":
     st.subheader("📊 Cálculo de Gasto Energético Diário")
 
     peso = st.number_input("Peso (kg)", 30.0, 200.0, 70.0)
